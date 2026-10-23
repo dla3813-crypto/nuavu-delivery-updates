@@ -1,29 +1,26 @@
 {
  "payload": {
   "app": "nuavu-delivery-distribution",
-  "version": "0.6.91",
-  "publishedAt": "2026-10-23T11:51:57+00:00",
+  "version": "0.6.92",
+  "publishedAt": "2026-10-23T12:08:05+00:00",
   "notes": [
-   "반품/교환 창: '전체 반품/교환' 한 목록으로 보기",
-   "교환 건도 '불량 아님 문자' 보내기",
-   "반품·교환 '수동 메시지 작성' 추가",
-   "지그재그 로그인 뒤 /shop/None 으로 들어가던 문제 수정",
-   "상품 여러 개 반품요청도 회수접수·에이블리 접수 진행 + 'N개' 알림"
+   "아이폰 알림(아이메시지) 설정 줄 수정: 체크하면 '껐습니다'가 뜨던 문제",
+   "번호를 넣고 '시험 보내기'를 누르면 '받는 곳을 먼저 입력하세요'가 뜨던 문제 수정"
   ],
   "files": {
    "mac": {
-    "name": "NUAVU_Delay_v0.6.91_Aligo_Distribution_Mac.zip",
-    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.91/NUAVU_Delay_v0.6.91_Aligo_Distribution_Mac.zip",
-    "sha256": "3464e94c9b03130919ac07976d4055e796afa1fd2777361a9ffffa0d71ac8965",
-    "size": 13471228
+    "name": "NUAVU_Delay_v0.6.92_Aligo_Distribution_Mac.zip",
+    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.92/NUAVU_Delay_v0.6.92_Aligo_Distribution_Mac.zip",
+    "sha256": "3f7db1470f19395e2541e14f163702c1a6a25fee0e3364188ca7b83e11f2ccf2",
+    "size": 13501026
    },
    "windows": {
-    "name": "NUAVU_Delay_v0.6.91_Aligo_Distribution_Windows.zip",
-    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.91/NUAVU_Delay_v0.6.91_Aligo_Distribution_Windows.zip",
-    "sha256": "cf4b774f123f4b5f11dab9c267d62b171ccb760c8719bf2104fe17199b3a8d46",
-    "size": 11911668
+    "name": "NUAVU_Delay_v0.6.92_Aligo_Distribution_Windows.zip",
+    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.92/NUAVU_Delay_v0.6.92_Aligo_Distribution_Windows.zip",
+    "sha256": "86f3e5215e2251621c0e961ef847f8ac5f44e9837f289f05993d40a3824b08e2",
+    "size": 11941522
    }
   }
  },
- "signature": "398e9c8e7a5d5c9a2f0276e102283c5a32e78708c5bab30c3e69c3bdf1ecfb31200a44d643b6112f73d454e82286ad790bfef5770a590e22f045d2021cfcd902"
+ "signature": "3b55686259121f7a6745c7196beb5cd1251dca9b847b4f68aed9e5884cabe6a70a865801b958b3af484c3adc95f40cfed167ff726005fe4f7e929b5d4009dd0e"
 }
