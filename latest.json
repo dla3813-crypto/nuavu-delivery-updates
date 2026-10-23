@@ -1,0 +1,29 @@
+{
+ "payload": {
+  "app": "nuavu-delivery-distribution",
+  "version": "0.6.91",
+  "publishedAt": "2026-10-23T11:51:57+00:00",
+  "notes": [
+   "반품/교환 창: '전체 반품/교환' 한 목록으로 보기",
+   "교환 건도 '불량 아님 문자' 보내기",
+   "반품·교환 '수동 메시지 작성' 추가",
+   "지그재그 로그인 뒤 /shop/None 으로 들어가던 문제 수정",
+   "상품 여러 개 반품요청도 회수접수·에이블리 접수 진행 + 'N개' 알림"
+  ],
+  "files": {
+   "mac": {
+    "name": "NUAVU_Delay_v0.6.91_Aligo_Distribution_Mac.zip",
+    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.91/NUAVU_Delay_v0.6.91_Aligo_Distribution_Mac.zip",
+    "sha256": "3464e94c9b03130919ac07976d4055e796afa1fd2777361a9ffffa0d71ac8965",
+    "size": 13471228
+   },
+   "windows": {
+    "name": "NUAVU_Delay_v0.6.91_Aligo_Distribution_Windows.zip",
+    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.91/NUAVU_Delay_v0.6.91_Aligo_Distribution_Windows.zip",
+    "sha256": "cf4b774f123f4b5f11dab9c267d62b171ccb760c8719bf2104fe17199b3a8d46",
+    "size": 11911668
+   }
+  }
+ },
+ "signature": "398e9c8e7a5d5c9a2f0276e102283c5a32e78708c5bab30c3e69c3bdf1ecfb31200a44d643b6112f73d454e82286ad790bfef5770a590e22f045d2021cfcd902"
+}
