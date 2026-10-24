@@ -1,26 +1,27 @@
 {
  "payload": {
   "app": "nuavu-delivery-distribution",
-  "version": "0.6.92",
-  "publishedAt": "2026-10-23T12:08:05+00:00",
+  "version": "0.6.99",
+  "publishedAt": "2026-10-24T09:25:31+00:00",
   "notes": [
-   "아이폰 알림(아이메시지) 설정 줄 수정: 체크하면 '껐습니다'가 뜨던 문제",
-   "번호를 넣고 '시험 보내기'를 누르면 '받는 곳을 먼저 입력하세요'가 뜨던 문제 수정"
+   "알림톡 결과 확인 개선: 1분 안에 결과가 안 나온 알림톡·문자를 10분·30분·1시간·3시간·6시간 뒤에 다시 확인합니다 (예전에는 12시간 뒤).",
+   "실제로는 성공했는데 '1분 결과 미확인'으로 오래 남던 문제가 줄어듭니다. 다시 확인만 하며 문자를 다시 보내지는 않습니다.",
+   "업데이트 직후, 확인이 밀려 있던 건도 바로 다시 확인합니다."
   ],
   "files": {
    "mac": {
-    "name": "NUAVU_Delay_v0.6.92_Aligo_Distribution_Mac.zip",
-    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.92/NUAVU_Delay_v0.6.92_Aligo_Distribution_Mac.zip",
-    "sha256": "3f7db1470f19395e2541e14f163702c1a6a25fee0e3364188ca7b83e11f2ccf2",
-    "size": 13501026
+    "name": "NUAVU_Delay_v0.6.99_Aligo_Distribution_Mac.zip",
+    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.99/NUAVU_Delay_v0.6.99_Aligo_Distribution_Mac.zip",
+    "sha256": "217c79863d0d823591314beae7a4e6467d8eaff027f7ce37d2a7fe1b0f782e03",
+    "size": 13692134
    },
    "windows": {
-    "name": "NUAVU_Delay_v0.6.92_Aligo_Distribution_Windows.zip",
-    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.92/NUAVU_Delay_v0.6.92_Aligo_Distribution_Windows.zip",
-    "sha256": "86f3e5215e2251621c0e961ef847f8ac5f44e9837f289f05993d40a3824b08e2",
-    "size": 11941522
+    "name": "NUAVU_Delay_v0.6.99_Aligo_Distribution_Windows.zip",
+    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.99/NUAVU_Delay_v0.6.99_Aligo_Distribution_Windows.zip",
+    "sha256": "1e8e30e7be4f1fe8a3e5c5b3f898b65920d5f716f74bc9dde70bb9e000411e4b",
+    "size": 12132868
    }
   }
  },
- "signature": "3b55686259121f7a6745c7196beb5cd1251dca9b847b4f68aed9e5884cabe6a70a865801b958b3af484c3adc95f40cfed167ff726005fe4f7e929b5d4009dd0e"
+ "signature": "84843e12e3a31f8cb6161794c7df877d3cbda5280f8792ebcc4cc9515f7820189fae84e9dfad5fba2b1dcf9c6c0ab18d61f79b484dd1238058e1b06aa7e68302"
 }
