@@ -1,32 +1,28 @@
 {
  "payload": {
   "app": "nuavu-delivery-distribution",
-  "version": "0.6.138",
-  "publishedAt": "2026-10-30T11:29:49+00:00",
+  "version": "0.6.139",
+  "publishedAt": "2026-11-01T12:54:05+00:00",
   "notes": [
-   "【개선】 앱이 놀고 있을 때 CPU 사용을 크게 줄였습니다 (5초마다 전체 데이터를 다시 저장하던 문제 · 안 보는 동안 애니메이션 정지 · 정기 백업 10분)",
-   "【수정】 주문 자동 불러오기 C/S 조건 \"정상\" → \"정상+교환\" — 출고 전 옵션 교환 주문도 미출고로 잡힙니다",
-   "【새 기능】 이지어드민 캡차에 1분 동안 응답이 없으면 2분 간격으로 다시 수집 (최대 20회) · [제가 직접 할게요]",
-   "【수정】 다운로드관리자 요청시각 1~3초 어긋남으로 파일을 못 찾던 문제 (앞뒤 3초 허용)",
-   "【수정】 에이블리 품절 처리 — 옵션 많은 상품의 아래쪽 옵션 못 찾던 문제 · 마지막 옵션이면 상품 전체 미진열",
-   "【수정】 자사몰 품절 처리 \"반영되지 않았습니다\" 오탐 (4초 뒤 재확인 → 재저장) · 자사몰 반품조회 \"1개월로 조회되지 않았습니다\" (재조회)",
-   "【수정】 다른 기기(원격 웹)에서 메시지 없는 안내·반품 안내 처리 시 \"crypto.randomUUID is not a function\" 오류",
+   "【새 기능】 이지어드민 주문 불러오기 → 내 메인 Chrome으로 (Mac) — 이미 로그인된 Chrome 세션 사용 · 비밀번호 입력 없음 (⚙ 설정 › 자동화 설정 스위치, 기본 꺼짐)",
+   "【안내】 처음 한 번 Chrome 메뉴 › 보기 › 개발자 정보 › \"Apple Events의 JavaScript 허용\" 켜기 (이지어드민에 로그인된 프로필에서) · Mac의 Chrome 제어 허용",
+   "【안내】 Chrome에 이지어드민 관리자 화면 탭을 하나 열어 두세요 — 그 서버로 주문검색·다운로드관리자를 엽니다",
    "주문·발송 이력과 계정은 그대로 유지됩니다"
   ],
   "files": {
    "mac": {
-    "name": "NUAVU_Delay_v0.6.138_Aligo_Distribution_Mac.zip",
-    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.138/NUAVU_Delay_v0.6.138_Aligo_Distribution_Mac.zip",
-    "sha256": "2b2ece9d6ab31310bca986821c49b5e41f42e8b93561e69cf42b40e1fa400622",
-    "size": 15288402
+    "name": "NUAVU_Delay_v0.6.139_Aligo_Distribution_Mac.zip",
+    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.139/NUAVU_Delay_v0.6.139_Aligo_Distribution_Mac.zip",
+    "sha256": "b0b27726ec511f103a0aefe230758d49bfcbff178631579506d07acd67288cb8",
+    "size": 15384913
    },
    "windows": {
-    "name": "NUAVU_Delay_v0.6.138_Aligo_Distribution_Windows.zip",
-    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.138/NUAVU_Delay_v0.6.138_Aligo_Distribution_Windows.zip",
-    "sha256": "0909bcd868cc34b0ca9f896324196d42abc46d0eb3762f1fe7e537b12aadae9f",
-    "size": 13730519
+    "name": "NUAVU_Delay_v0.6.139_Aligo_Distribution_Windows.zip",
+    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.139/NUAVU_Delay_v0.6.139_Aligo_Distribution_Windows.zip",
+    "sha256": "ec44cefee51ba91b0a380ea2a19be221ef13effd9ed9a97b713226babdfead7d",
+    "size": 13827108
    }
   }
  },
- "signature": "fab56869f9a4067e2fedb254bfae5c0768b74c3b0ae0fb2797790005f49ae81f80f8b3eece7aac50629a66fcceb2391ba590ccbf307c07a7d970f05e70e25202"
+ "signature": "63b4802519e37115355c2633d7e51d4fc64d308c8922e17eb7bc6ff63c4faf27efc4f4df6a171a6c658794c71e2703ee26a2e4232ced1da33cde9f76bf784208"
 }
