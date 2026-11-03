@@ -1,32 +1,30 @@
 {
  "payload": {
   "app": "nuavu-delivery-distribution",
-  "version": "0.6.141",
-  "publishedAt": "2026-11-03T09:54:24+00:00",
+  "version": "0.6.142",
+  "publishedAt": "2026-11-03T19:28:32+00:00",
   "notes": [
-   "【추가】 반품/교환 안내 문자 — 자사몰·지그재그 반품도 수신번호를 불러온 주문(수령자/주문자 휴대폰)에서 찾아 보낼 수 있습니다",
-   "【추가】 새 안내 문자 「자사몰(무통장/반품도착)」 — 반품 도착 · 왕복 배송비 6,000원 제외 환불 · 환불 계좌 요청 (자사몰 반품 전용)",
-   "【추가】 발송실패 표시 지우기 — 발송실패 필터에서 상품을 골라 표시만 지웁니다 (문자 이력·결과 유지)",
-   "【수정】 아무드 묶음(추가옵션) 주문 — 옵션만 다른 여러 줄을 한 주문상품으로 합쳐 불러옵니다 (오류로 중단되던 문제)",
-   "【수정】 이지어드민 엑셀 요청 시각 겹침 — 30초 뒤 새로 신청 (최대 3회)",
-   "【수정】 메인 Chrome 주문 불러오기 — Chrome이 2개 떠 있으면 \"메인 Chrome 창이 없습니다\"로 실패하던 문제, \"탭이 30초 안에 열리지 않았습니다\" 실패",
-   "【수정】 화요일 출고장 질문 — 더 뒤 날짜 출고장이 폴더에 있으면 묻지 않습니다",
+   "【추가】 상품 매칭 — 주문 옵션이 영어(Ivory·Gray·Black·One Color…)이고 발주가 한글이어도 자동 매칭합니다 (반대도)",
+   "【수정】 중국 취소건 — 컬러가 다르면 '비슷한 취소상품'으로 묻지 않습니다 (상품명·컬러 같고 사이즈만 다를 때만)",
+   "【수정】 중국 취소건 — 「다른 상품/오발주」를 누르면 같은 상품명의 다른 취소 항목에도 다시 묻지 않습니다",
+   "【수정】 중국 취소건 — 사무실 도착(V)이 잡힌 주문은 취소건으로 표시하지 않습니다",
+   "【수정】 출고장 표시 — 출고장 날짜를 먼저, V(사무실 도착)는 괄호로 보여줍니다",
    "주문·발송 이력과 계정은 그대로 유지됩니다"
   ],
   "files": {
    "mac": {
-    "name": "NUAVU_Delay_v0.6.141_Aligo_Distribution_Mac.zip",
-    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.141/NUAVU_Delay_v0.6.141_Aligo_Distribution_Mac.zip",
-    "sha256": "6401715abf5ff9b33d193f25d6cb5003b733abd11885d1a334fcca8e81f833db",
-    "size": 15464213
+    "name": "NUAVU_Delay_v0.6.142_Aligo_Distribution_Mac.zip",
+    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.142/NUAVU_Delay_v0.6.142_Aligo_Distribution_Mac.zip",
+    "sha256": "24c05dd5d19f9c45e6fe1ffd3d8d425e2e765f02daeadc39b3c5abb45ee368d6",
+    "size": 15500241
    },
    "windows": {
-    "name": "NUAVU_Delay_v0.6.141_Aligo_Distribution_Windows.zip",
-    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.141/NUAVU_Delay_v0.6.141_Aligo_Distribution_Windows.zip",
-    "sha256": "27dc37cf50a08916ac196ee2da8da5555cb5a1ba9a96c14522e42d95aac7db26",
-    "size": 13906567
+    "name": "NUAVU_Delay_v0.6.142_Aligo_Distribution_Windows.zip",
+    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.142/NUAVU_Delay_v0.6.142_Aligo_Distribution_Windows.zip",
+    "sha256": "c49ce52c5680c09400a4fb77fb30f9ce85312b85d30d932c4d5682a60424d942",
+    "size": 13942635
    }
   }
  },
- "signature": "edf0a1fed27db06bd2af273d24d6a7d6b07704263b72410af85fd0589f810487258f500ab2e0f5117aea96937ea59beba2073df11763084a192b81027a637e0e"
+ "signature": "4a7a84933aeae1ccaea77b8e8266917f9c433358ec1537652069d11d1320cbec866941b1ab413dfc66d785b1b06e15ca153c934c109462dd39275bd815cda70d"
 }
