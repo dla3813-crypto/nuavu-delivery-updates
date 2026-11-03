@@ -1,30 +1,28 @@
 {
  "payload": {
   "app": "nuavu-delivery-distribution",
-  "version": "0.6.142",
-  "publishedAt": "2026-11-03T19:28:32+00:00",
+  "version": "0.6.143",
+  "publishedAt": "2026-11-03T19:48:28+00:00",
   "notes": [
-   "【추가】 상품 매칭 — 주문 옵션이 영어(Ivory·Gray·Black·One Color…)이고 발주가 한글이어도 자동 매칭합니다 (반대도)",
-   "【수정】 중국 취소건 — 컬러가 다르면 '비슷한 취소상품'으로 묻지 않습니다 (상품명·컬러 같고 사이즈만 다를 때만)",
-   "【수정】 중국 취소건 — 「다른 상품/오발주」를 누르면 같은 상품명의 다른 취소 항목에도 다시 묻지 않습니다",
-   "【수정】 중국 취소건 — 사무실 도착(V)이 잡힌 주문은 취소건으로 표시하지 않습니다",
-   "【수정】 출고장 표시 — 출고장 날짜를 먼저, V(사무실 도착)는 괄호로 보여줍니다",
+   "【수정】 중국 취소건 — 출고장·진행상황에 입고 예정 물량이 있는 주문은 취소건으로 표시하지 않습니다 (물량이 사라지고 다시 취소되면 그때 2차·3차)",
+   "【수정】 중국 취소건 — 「다른 상품/오발주」 버튼을 모든 취소건 행에 표시 (누르면 표시를 지우고 흰 행으로)",
+   "【수정】 상품 매칭 — 발주 컬러 칸에 사이즈(S/M/L/XL/숫자)만 있는 원컬러 행도 주문 [원컬러-사이즈]와 매칭합니다",
    "주문·발송 이력과 계정은 그대로 유지됩니다"
   ],
   "files": {
    "mac": {
-    "name": "NUAVU_Delay_v0.6.142_Aligo_Distribution_Mac.zip",
-    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.142/NUAVU_Delay_v0.6.142_Aligo_Distribution_Mac.zip",
-    "sha256": "24c05dd5d19f9c45e6fe1ffd3d8d425e2e765f02daeadc39b3c5abb45ee368d6",
-    "size": 15500241
+    "name": "NUAVU_Delay_v0.6.143_Aligo_Distribution_Mac.zip",
+    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.143/NUAVU_Delay_v0.6.143_Aligo_Distribution_Mac.zip",
+    "sha256": "a0aa34c961c4fba8eccd49d3bd15f7c05e5331019294e1e9aaca8500428c8f4f",
+    "size": 15535029
    },
    "windows": {
-    "name": "NUAVU_Delay_v0.6.142_Aligo_Distribution_Windows.zip",
-    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.142/NUAVU_Delay_v0.6.142_Aligo_Distribution_Windows.zip",
-    "sha256": "c49ce52c5680c09400a4fb77fb30f9ce85312b85d30d932c4d5682a60424d942",
-    "size": 13942635
+    "name": "NUAVU_Delay_v0.6.143_Aligo_Distribution_Windows.zip",
+    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.143/NUAVU_Delay_v0.6.143_Aligo_Distribution_Windows.zip",
+    "sha256": "eeca54808a06341ff66ebc5e83606d8cbfd6069a5f3bde96c1b37acb86582946",
+    "size": 13977476
    }
   }
  },
- "signature": "4a7a84933aeae1ccaea77b8e8266917f9c433358ec1537652069d11d1320cbec866941b1ab413dfc66d785b1b06e15ca153c934c109462dd39275bd815cda70d"
+ "signature": "7ebda6237a0ba5b5e49ebefad0550041ee93fe90491d14303eea0bbca4dd7adc74a0ac658eb75cb0be1696e535b04201c6b794085ad51e609ac0032a4d478d01"
 }
