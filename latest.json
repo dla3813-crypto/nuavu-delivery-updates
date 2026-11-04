@@ -1,26 +1,27 @@
 {
  "payload": {
   "app": "nuavu-delivery-distribution",
-  "version": "0.6.144",
-  "publishedAt": "2026-11-04T07:10:05+00:00",
+  "version": "0.6.145",
+  "publishedAt": "2026-11-04T13:14:45+00:00",
   "notes": [
-   "【수정】 에이블리 배송지연 메시지 자동 발송·동기화 — 중간에 새 주문이 들어와 주문 건수가 바뀌어도 멈추지 않고 다시 확인한 뒤 발송합니다 (발송 직전 행 재확인)",
+   "【긴급 수정】 너나우리 문자 설정을 누아브판과 동일하게 — 「연결 방식」(기본 HTTP, 너나우리는 HTTP로만 전송)과 「SMS/LMS 잔여량 조회」 버튼을 너나우리 설정에 추가. 전에는 알리고용 HTTPS가 강제돼 너나우리 문자 발송·잔여량 조회가 실패했습니다",
+   "업데이트 전 너나우리로 미요청·예약돼 있던 안내는 일시정지되니 취소 후 새로 작성하세요",
    "주문·발송 이력과 계정은 그대로 유지됩니다"
   ],
   "files": {
    "mac": {
-    "name": "NUAVU_Delay_v0.6.144_Aligo_Distribution_Mac.zip",
-    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.144/NUAVU_Delay_v0.6.144_Aligo_Distribution_Mac.zip",
-    "sha256": "396d250ea3ffe688585812e5ec4675dbc5658ef4a7667d9a08c3b179d7e3266e",
-    "size": 15570445
+    "name": "NUAVU_Delay_v0.6.145_Aligo_Distribution_Mac.zip",
+    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.145/NUAVU_Delay_v0.6.145_Aligo_Distribution_Mac.zip",
+    "sha256": "88ea7d47153a5ff5ba0e59cea9c23f0f163a9f90d941097e6496dd40c7052f89",
+    "size": 15606345
    },
    "windows": {
-    "name": "NUAVU_Delay_v0.6.144_Aligo_Distribution_Windows.zip",
-    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.144/NUAVU_Delay_v0.6.144_Aligo_Distribution_Windows.zip",
-    "sha256": "5b08ef55eaa75225956116fa1040711f210457d447cec40bfa95a4aabc5f2f9a",
-    "size": 14012946
+    "name": "NUAVU_Delay_v0.6.145_Aligo_Distribution_Windows.zip",
+    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.145/NUAVU_Delay_v0.6.145_Aligo_Distribution_Windows.zip",
+    "sha256": "645536d082fc3d803d9ff822a5c41eb6c5f6077d36d65cba24275fd58a6fbee0",
+    "size": 14048894
    }
   }
  },
- "signature": "c3d6a1d96eed8ee87b3522e229afbeeebd14eab8db9971cf99c9a6ac7fd8c9e5bf598cf254f12e987d40618c52f0458f2f389b076945af487b7582e1afa4ee04"
+ "signature": "3d2ffbadfa8f159610fa74c97bb3707db9d9cd845d2af48709f9ce573f7c1b47a8f9c034e3b744bc4c36281732cc6df5029417bf8f73ebae71b2a8ecf0e69a00"
 }
