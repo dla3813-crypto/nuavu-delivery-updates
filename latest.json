@@ -1,28 +1,26 @@
 {
  "payload": {
   "app": "nuavu-delivery-distribution",
-  "version": "0.6.143",
-  "publishedAt": "2026-11-03T19:48:28+00:00",
+  "version": "0.6.144",
+  "publishedAt": "2026-11-04T07:10:05+00:00",
   "notes": [
-   "【수정】 중국 취소건 — 출고장·진행상황에 입고 예정 물량이 있는 주문은 취소건으로 표시하지 않습니다 (물량이 사라지고 다시 취소되면 그때 2차·3차)",
-   "【수정】 중국 취소건 — 「다른 상품/오발주」 버튼을 모든 취소건 행에 표시 (누르면 표시를 지우고 흰 행으로)",
-   "【수정】 상품 매칭 — 발주 컬러 칸에 사이즈(S/M/L/XL/숫자)만 있는 원컬러 행도 주문 [원컬러-사이즈]와 매칭합니다",
+   "【수정】 에이블리 배송지연 메시지 자동 발송·동기화 — 중간에 새 주문이 들어와 주문 건수가 바뀌어도 멈추지 않고 다시 확인한 뒤 발송합니다 (발송 직전 행 재확인)",
    "주문·발송 이력과 계정은 그대로 유지됩니다"
   ],
   "files": {
    "mac": {
-    "name": "NUAVU_Delay_v0.6.143_Aligo_Distribution_Mac.zip",
-    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.143/NUAVU_Delay_v0.6.143_Aligo_Distribution_Mac.zip",
-    "sha256": "a0aa34c961c4fba8eccd49d3bd15f7c05e5331019294e1e9aaca8500428c8f4f",
-    "size": 15535029
+    "name": "NUAVU_Delay_v0.6.144_Aligo_Distribution_Mac.zip",
+    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.144/NUAVU_Delay_v0.6.144_Aligo_Distribution_Mac.zip",
+    "sha256": "396d250ea3ffe688585812e5ec4675dbc5658ef4a7667d9a08c3b179d7e3266e",
+    "size": 15570445
    },
    "windows": {
-    "name": "NUAVU_Delay_v0.6.143_Aligo_Distribution_Windows.zip",
-    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.143/NUAVU_Delay_v0.6.143_Aligo_Distribution_Windows.zip",
-    "sha256": "eeca54808a06341ff66ebc5e83606d8cbfd6069a5f3bde96c1b37acb86582946",
-    "size": 13977476
+    "name": "NUAVU_Delay_v0.6.144_Aligo_Distribution_Windows.zip",
+    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.144/NUAVU_Delay_v0.6.144_Aligo_Distribution_Windows.zip",
+    "sha256": "5b08ef55eaa75225956116fa1040711f210457d447cec40bfa95a4aabc5f2f9a",
+    "size": 14012946
    }
   }
  },
- "signature": "7ebda6237a0ba5b5e49ebefad0550041ee93fe90491d14303eea0bbca4dd7adc74a0ac658eb75cb0be1696e535b04201c6b794085ad51e609ac0032a4d478d01"
+ "signature": "c3d6a1d96eed8ee87b3522e229afbeeebd14eab8db9971cf99c9a6ac7fd8c9e5bf598cf254f12e987d40618c52f0458f2f389b076945af487b7582e1afa4ee04"
 }
