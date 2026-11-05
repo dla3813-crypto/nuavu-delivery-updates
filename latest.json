@@ -1,27 +1,28 @@
 {
  "payload": {
   "app": "nuavu-delivery-distribution",
-  "version": "0.6.145",
-  "publishedAt": "2026-11-04T13:14:45+00:00",
+  "version": "0.6.146",
+  "publishedAt": "2026-11-05T12:22:53+00:00",
   "notes": [
-   "【긴급 수정】 너나우리 문자 설정을 누아브판과 동일하게 — 「연결 방식」(기본 HTTP, 너나우리는 HTTP로만 전송)과 「SMS/LMS 잔여량 조회」 버튼을 너나우리 설정에 추가. 전에는 알리고용 HTTPS가 강제돼 너나우리 문자 발송·잔여량 조회가 실패했습니다",
-   "업데이트 전 너나우리로 미요청·예약돼 있던 안내는 일시정지되니 취소 후 새로 작성하세요",
+   "【개선】 상품 매칭 — 수동 매칭해 둔 주문도 같은 상품명의 자동 후보(원컬러/FREE 주문은 컬러·사이즈 불문)를 함께 연결합니다. 수동 매칭 창에서 자동으로 더해진 행은 체크된 채 표시됩니다",
+   "중국어 컬러(浅灰·灰色 등) 발주 행은 자동으로 붙이지 않고, 이미 매칭된 주문이라도 「수동매칭 권장」에 띄웁니다 — 후보 확인에서 체크해 수량을 더하세요",
+   "「자동 매칭 취소(연결 안 함)」 주문은 전처럼 아무것도 연결하지 않습니다",
    "주문·발송 이력과 계정은 그대로 유지됩니다"
   ],
   "files": {
    "mac": {
-    "name": "NUAVU_Delay_v0.6.145_Aligo_Distribution_Mac.zip",
-    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.145/NUAVU_Delay_v0.6.145_Aligo_Distribution_Mac.zip",
-    "sha256": "88ea7d47153a5ff5ba0e59cea9c23f0f163a9f90d941097e6496dd40c7052f89",
-    "size": 15606345
+    "name": "NUAVU_Delay_v0.6.146_Aligo_Distribution_Mac.zip",
+    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.146/NUAVU_Delay_v0.6.146_Aligo_Distribution_Mac.zip",
+    "sha256": "0a05092efa7b796e5f4c6eca944eaa1dbf5fec48d9a622cfc7e6f2372e088fa1",
+    "size": 15643356
    },
    "windows": {
-    "name": "NUAVU_Delay_v0.6.145_Aligo_Distribution_Windows.zip",
-    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.145/NUAVU_Delay_v0.6.145_Aligo_Distribution_Windows.zip",
-    "sha256": "645536d082fc3d803d9ff822a5c41eb6c5f6077d36d65cba24275fd58a6fbee0",
-    "size": 14048894
+    "name": "NUAVU_Delay_v0.6.146_Aligo_Distribution_Windows.zip",
+    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.146/NUAVU_Delay_v0.6.146_Aligo_Distribution_Windows.zip",
+    "sha256": "fe1f233a43cc819d664799725facbdebaf145d50de14941fc7369e39c105b38c",
+    "size": 14085967
    }
   }
  },
- "signature": "3d2ffbadfa8f159610fa74c97bb3707db9d9cd845d2af48709f9ce573f7c1b47a8f9c034e3b744bc4c36281732cc6df5029417bf8f73ebae71b2a8ecf0e69a00"
+ "signature": "f95c9ce0ca33bdbe59c12c1802009574cdd747e276141a8c4cd7a74e8bea75742c31f99b78407ddc7f8f9d48a45db8621ee9918fada234fa4222ea4a8271b705"
 }
