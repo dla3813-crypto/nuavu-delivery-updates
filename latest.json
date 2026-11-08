@@ -1,28 +1,27 @@
 {
  "payload": {
   "app": "nuavu-delivery-distribution",
-  "version": "0.6.146",
-  "publishedAt": "2026-11-05T12:22:53+00:00",
+  "version": "0.6.147",
+  "publishedAt": "2026-11-08T15:49:27+00:00",
   "notes": [
-   "【개선】 상품 매칭 — 수동 매칭해 둔 주문도 같은 상품명의 자동 후보(원컬러/FREE 주문은 컬러·사이즈 불문)를 함께 연결합니다. 수동 매칭 창에서 자동으로 더해진 행은 체크된 채 표시됩니다",
-   "중국어 컬러(浅灰·灰色 등) 발주 행은 자동으로 붙이지 않고, 이미 매칭된 주문이라도 「수동매칭 권장」에 띄웁니다 — 후보 확인에서 체크해 수량을 더하세요",
-   "「자동 매칭 취소(연결 안 함)」 주문은 전처럼 아무것도 연결하지 않습니다",
+   "【수정】 화요일 출고장이 완료 처리로 폴더에서 치워진 뒤에도 \"출고장 없음 · 출고 확인 필요\" 알림·질문이 다시 뜨던 문제 — 앱이 기억하는 마지막 출고장 날짜가 그 화요일 이후면 묻지 않습니다",
+   "수요일 18시 이후 직접 「출고장 갱신」을 눌렀다면 빨간 알림은 올리지 않습니다",
    "주문·발송 이력과 계정은 그대로 유지됩니다"
   ],
   "files": {
    "mac": {
-    "name": "NUAVU_Delay_v0.6.146_Aligo_Distribution_Mac.zip",
-    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.146/NUAVU_Delay_v0.6.146_Aligo_Distribution_Mac.zip",
-    "sha256": "0a05092efa7b796e5f4c6eca944eaa1dbf5fec48d9a622cfc7e6f2372e088fa1",
-    "size": 15643356
+    "name": "NUAVU_Delay_v0.6.147_Aligo_Distribution_Mac.zip",
+    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.147/NUAVU_Delay_v0.6.147_Aligo_Distribution_Mac.zip",
+    "sha256": "e048a24107976a7b12fca1ec678cbc869144cb5c9044b5da6041634890048d2f",
+    "size": 15677802
    },
    "windows": {
-    "name": "NUAVU_Delay_v0.6.146_Aligo_Distribution_Windows.zip",
-    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.146/NUAVU_Delay_v0.6.146_Aligo_Distribution_Windows.zip",
-    "sha256": "fe1f233a43cc819d664799725facbdebaf145d50de14941fc7369e39c105b38c",
-    "size": 14085967
+    "name": "NUAVU_Delay_v0.6.147_Aligo_Distribution_Windows.zip",
+    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.147/NUAVU_Delay_v0.6.147_Aligo_Distribution_Windows.zip",
+    "sha256": "631fc40418b4b6c835807936826e2eb9efb004a75f4ad4ef6035018db274113e",
+    "size": 14120455
    }
   }
  },
- "signature": "f95c9ce0ca33bdbe59c12c1802009574cdd747e276141a8c4cd7a74e8bea75742c31f99b78407ddc7f8f9d48a45db8621ee9918fada234fa4222ea4a8271b705"
+ "signature": "dc32c7453ffdd437cbadc13e3a77898eee94fb779c19f66bda0e359ee38d8b9f55e4d0a8084e4eb02b698144e67097693463b71e431f5ba76154ae18fb978605"
 }
