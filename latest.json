@@ -1,27 +1,27 @@
 {
  "payload": {
   "app": "nuavu-delivery-distribution",
-  "version": "0.6.148",
-  "publishedAt": "2026-11-09T05:57:02+00:00",
+  "version": "0.6.149",
+  "publishedAt": "2026-11-09T13:53:49+00:00",
   "notes": [
-   "【수정】 수동 매칭해 둔 출고장 행이 완료 처리로 치워지면 그 주문이 자동 후보(진행상황 등)에도 연결되지 않고 비어 있던 문제 — 수동으로 고른 행이 모두 사라지면 자동 매칭으로 되돌아갑니다",
-   "그 상태에서 수동 매칭 창 저장 시 \"현재 선택 브랜드의 상품이 아닙니다\"로 막히던 문제도 고쳤습니다 (사라진 행은 빼고 살아 있는 행만 저장)",
+   "【개선】 CPU 사용량 최적화 — 화면 상태 계산(상품명 매칭·안내 이력 대조)을 캐시·색인으로 5~7배 빠르게, 바탕화면(iCloud) 백업은 수시 백업 15분 간격·최근 12개 보관으로 줄여 iCloud 동기화·Spotlight 부하를 낮췄습니다",
+   "「바탕화면 백업」 버튼·앱 종료·출고장 초기화 전후 백업은 전처럼 즉시 저장됩니다",
    "주문·발송 이력과 계정은 그대로 유지됩니다"
   ],
   "files": {
    "mac": {
-    "name": "NUAVU_Delay_v0.6.148_Aligo_Distribution_Mac.zip",
-    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.148/NUAVU_Delay_v0.6.148_Aligo_Distribution_Mac.zip",
-    "sha256": "a680e1ede53cc2c892ec5d67c331382d3bdcd3820ec5f72d66519405ceeb2a85",
-    "size": 15712865
+    "name": "NUAVU_Delay_v0.6.149_Aligo_Distribution_Mac.zip",
+    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.149/NUAVU_Delay_v0.6.149_Aligo_Distribution_Mac.zip",
+    "sha256": "9a8029f93200800769ad772209dc06e0123121e711e742d348f5c78d7cd249ef",
+    "size": 15748238
    },
    "windows": {
-    "name": "NUAVU_Delay_v0.6.148_Aligo_Distribution_Windows.zip",
-    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.148/NUAVU_Delay_v0.6.148_Aligo_Distribution_Windows.zip",
-    "sha256": "076df78bc55be54b0b863fd98446825c68e6372d75ec60ee63f0b6bb8b619d64",
-    "size": 14155560
+    "name": "NUAVU_Delay_v0.6.149_Aligo_Distribution_Windows.zip",
+    "url": "https://raw.githubusercontent.com/dla3813-crypto/nuavu-delivery-updates/main/releases/v0.6.149/NUAVU_Delay_v0.6.149_Aligo_Distribution_Windows.zip",
+    "sha256": "81096a9a67165e54e2c3d8d9b63e6dbf5a92731e876ee743fd05ddad1307e6f1",
+    "size": 14190985
    }
   }
  },
- "signature": "ad206f064703b24aab121ff10f2320d322c32dea66973eba42a18e523ff88fcc69fb17ed86c9f70236cc7d9c60902a8f5df1eecc653330a7cf6fb89f12b01501"
+ "signature": "17ed734bf0f31a05629a3b06a2e226bf307dafa8cc4f12d9d532d9e9c411c9265144b9d6c73445c5ae78e5b2efe56c8d9a121df069d3751024ebb15a79a5370c"
 }
